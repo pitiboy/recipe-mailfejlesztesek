@@ -10,13 +10,11 @@ module.exports = (Franz) => {
     if (document.getElementsByClassName('item dragHandle unseen').length > 0) {
       count = document.getElementsByClassName('item dragHandle unseen').length;
     }
-    console.log(count);
 
     if (document.getElementsByClassName('count unseen').length > 0) {
       // best
       count = parseInt(document.getElementsByClassName('count unseen')[0].innerText);
     }
-    console.log(count);
 
     // Just incase we don't end up with a number, set it back to zero (parseInt can return NaN)
     if (isNaN(count)) {
