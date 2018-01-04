@@ -1,12 +1,12 @@
 {
-  "id": "gmail",
-  "name": "Gmail",
+  "id": "fejlesztesek",
+  "name": "webmail.fejlesztesek.hu",
   "version": "1.0.0",
-  "description": "Gmail",
+  "description": "webmail.fejlesztesek.hu",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Peter Horvath <horvath.peter@fejlesztesek.hu>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://mail.google.com"
+    "serviceURL": "http://webmail.fejlesztesek.hu"
   }
 }
