@@ -1,0 +1,29 @@
+body.compact {
+}
+
+body.compact .items_list .item {
+  height: 36px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+body.compact .items_list .item .subject {
+  display: none;
+}
+
+.compact-view {
+  border: solid 2px black;
+  padding:3px;
+  border-radius: 5px;
+}
+body > .compact-view {
+  position: absolute;
+  top: 14px;
+  left: 290px;
+  background-color: #f2f3f4;
+}
+
+
+.compact-view .button-disable{
+
+}
